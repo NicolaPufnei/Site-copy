@@ -152,6 +152,8 @@ a:active{
 @media (max-width:1000px){
     .container2{
         flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
     }
     .rand1{
         width: 100%;
