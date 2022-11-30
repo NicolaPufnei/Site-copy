@@ -1,0 +1,162 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+}
+header{
+    background-color:#F8F8F8;
+    padding: 2rem 0;
+}
+.container{
+    border: 2px solid magenta;
+    width: 70%;
+    margin: 2rem auto;
+    justify-content: space-between;
+    display:flex;
+}
+.titlu{
+    font-size: 1rem;
+}
+.titlu h1{
+    font-family:'Lora', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin:0;
+    color:#143774;
+}
+.titlu p{
+    text-transform: uppercase;
+    font-size:.90rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin:0;
+    color:#1792D2;
+}
+.nav-list{
+    list-style: none;
+    display:flex;
+    padding:0;
+}
+.nav-items{
+    margin: 0 auto;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 2rem;
+    padding:0.25rem;
+}
+a:link{
+    color:#717171;
+    text-decoration: none;
+}
+a:visited{
+    color:#717171;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+    transition: all 1s;
+    text-decoration:none;
+}
+a:active{
+    color:#717171;
+    text-decoration:none;
+}
+.underlinelink{
+    border-bottom: 1px solid #717171;;
+}
+.activelink:hover{
+    color:#717171;
+}
+@media (max-width:1000px){
+    .container{
+        flex-direction: column;
+    }
+    .titlu{
+        text-align: center;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-items{
+        margin:1.5rem auto;
+   }
+   header{
+    padding: 1rem 0;
+   }
+   .container{
+    margin:1rem auto;
+   }
+}
+.container2{
+    width: 70%;
+    margin:2rem auto;
+    display: flex;
+    border:2px solid magenta;
+    justify-content:space-between;
+}
+.rand1{
+    width: 75%;
+    border:2px solid magenta;
+}
+.rand1 img{
+    width: 100%;
+    margin-bottom: 0;
+    display:block;
+}
+.rand2{
+    border:2px solid magenta;
+    width: 20%;
+}
+.rand2 img{
+    width: 100%;
+    max-width: 150px;
+}
+.col1{
+    border: 20px solid #EBEBEB;
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+}
+.col2{
+    border: 20px solid #EBEBEB;
+    padding: 2rem 2rem;
+}
+.data{
+    color:#707070;
+    font-size:0.875rem;
+    font-weight: light;
+}
+.subtitlu{
+    font-family: 'Lora';
+    font-size:1.5rem;
+    color:#143774;
+}
+.txt1{
+    font-family: 'Ubuntu', 'sans-serif';
+    font-weight: light;
+    font-size:1.125rem;
+}
+.secondary-content-1{
+    margin:2rem 0;
+    border:2px solid magenta;
+    display:flex;
+}
+.secondary-col-1{
+    border:2px solid magenta;
+}
+.secondary-col-1 img{
+    width: 100%;
+}
+.secondary-col-2{
+    border:2px solid magenta;
+}
+@media (max-width:1000px){
+    .container2{
+        flex-direction: column;
+    }
+    .rand1{
+        width: 100%;
+    }
+    .rand2{
+        width: 100%;
+    }
+}
