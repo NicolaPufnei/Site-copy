@@ -7,8 +7,7 @@ header{
     padding: 2rem 0;
 }
 .container{
-    border: 2px solid magenta;
-    width: 70%;
+    width: 60%;
     margin: 2rem auto;
     justify-content: space-between;
     display:flex;
@@ -44,20 +43,20 @@ header{
     margin-left: 2rem;
     padding:0.25rem;
 }
-a:link{
+.nav-items a:link{
     color:#717171;
     text-decoration: none;
 }
-a:visited{
+.nav-items a:visited{
     color:#717171;
     text-decoration:none;
 }
-a:hover{
+.nav-items a:hover{
     color:black;
     transition: all 1s;
     text-decoration:none;
 }
-a:active{
+.nav-items a:active{
     color:#717171;
     text-decoration:none;
 }
@@ -88,7 +87,7 @@ a:active{
    }
 }
 .container2{
-    width: 70%;
+    width: 60%;
     margin:2rem auto;
     display: flex;
     border:2px solid magenta;
@@ -126,14 +125,33 @@ a:active{
     font-weight: light;
 }
 .subtitlu{
-    font-family: 'Lora';
+    font-family: 'Lora', sans-serif;
     font-size:1.5rem;
     color:#143774;
 }
+.cntread{
+    font-size: 0.875;
+    font-weight: bold;
+    color:#1792D2;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
 .txt1{
     font-family: 'Ubuntu', 'sans-serif';
-    font-weight: light;
+    color:#707070;
     font-size:1.125rem;
+}
+.txt1 a:link{
+    color: #1792D2;
+}
+.txt1 a:visited{
+    color:#1792D2;
+}
+.txt1 a:hover{
+    color:#1792D2;
+}
+.txt1 a:active{
+    color:#1792D2;
 }
 .secondary-content-1{
     margin:2rem 0;
@@ -160,5 +178,8 @@ a:active{
     }
     .rand2{
         width: 100%;
+    }
+    .secondary-content-1{
+        flex-direction: column;
     }
 }
