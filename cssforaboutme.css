@@ -71,7 +71,7 @@ footer{
     text-decoration:none;
 }
 .nav-items a:active{
-    color:#717171;
+    color:black;
     text-decoration:none;
 }
 .underlinelink{
@@ -113,14 +113,12 @@ footer{
    }
 }
 .container2{
-    border:2px solid magenta;
     width: 60%;
     margin:2rem auto;
     display: flex;
     justify-content:space-between;
 }
 .rand1{
-    border:2px solid magenta;
     width: 75%;
 }
 .rand1 img{
@@ -129,7 +127,6 @@ footer{
     display:block;
 }
 .rand2{
-    border: 2px solid magenta;
     width: 20%;
 }
 .rand2 img{
@@ -255,6 +252,7 @@ footer{
         width: 100%;
     }
     .rand2{
+        margin-top:2rem;
         width: 100%;
     }
     .secondary-content-1{
@@ -296,4 +294,10 @@ footer{
 .content{
     font-weight:normal;
     color:#707070;
+}
+.abtme{
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    padding-bottom: 2rem;
 }
