@@ -254,8 +254,17 @@ footer{
     .rand2{
         width: 100%;
     }
+    .main-content img{
+        object-fit: cover;
+        max-height:500px;
+        object-position: bottom;
+    }
     .secondary-content-1{
         flex-direction: column;
+    }
+    .secondary-content-1 img{
+        object-fit: cover;
+        max-height: 300px;
     }
     .secondary-col-1{
         width: 100%;
