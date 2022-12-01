@@ -66,8 +66,9 @@ header{
 .activelink:hover{
     color:#717171;
 }
-@media (max-width:1000px){
+@media (max-width:1200px){
     .container{
+        width: 70%;
         flex-direction: column;
     }
     .titlu{
@@ -93,7 +94,6 @@ header{
     justify-content:space-between;
 }
 .rand1{
-    border: 2px solid magenta;
     width: 75%;
 }
 .rand1 img{
@@ -124,9 +124,6 @@ header{
     font-weight: lighter;
     font-size: 0.875rem;
 }
-.blockimg{
-    display:block;
-}
 .title-secondary-col{
     margin: 0 auto;
     color:#143774;
@@ -144,10 +141,6 @@ header{
     font-weight: bold;
     color:#143774;
     letter-spacing: 3.6px;
-}
-.col1 img{
-    width: 100%;
-    max-width: 200px;
 }
 .col2{
     border: 20px solid #EBEBEB;
@@ -199,23 +192,32 @@ header{
 }
 .secondary-content-1{
     justify-content: space-between;
-    border: 2px solid magenta;
     margin:2rem 0;
     display:flex;
     align-items:flex-start;
 }
 .secondary-col-1{
     width: 50%;
-    border: 2px solid magenta;
 }
 .secondary-col-1 img{
     width: 100%;
 }
 .secondary-col-2{
     width: 48%;
-    border: 2px solid magenta;
 }
-@media (max-width:1000px){
+.col1 img{
+    max-width: 600px;
+    height:100px;
+    width: 100%;
+    object-fit: cover;
+}
+.col2 img{
+    max-width: 600px;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width:1200px){
     .container2{
         flex-direction: column;
         width: 90%;
@@ -235,5 +237,10 @@ header{
     }
     .secondary-col-2{
         width: 100%;
+    }
+    .widget-img{
+        width:50%;
+        height: 100px;
+        object-fit: cover;
     }
 }
