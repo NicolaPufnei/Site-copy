@@ -219,14 +219,14 @@ footer{
     width: 48%;
 }
 .col1 img{
-    max-width: 600px;
-    height:100px;
+    max-width: 1200px;
+    height:300px;
     width: 100%;
     object-fit: cover;
 }
 .col2 img{
-    max-width: 600px;
-    height: 100px;
+    max-width: 1200px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
 }
