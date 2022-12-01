@@ -6,6 +6,20 @@ header{
     background-color:#F8F8F8;
     padding: 2rem 0;
 }
+footer{
+    background-color: #143774;
+    padding: 2rem 0;
+}
+.footertxt{
+    opacity: 0.54;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.125rem;
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+    color:white;
+    border:2px solid magenta;
+}
 .container{
     width: 60%;
     margin: 2rem auto;
@@ -242,5 +256,8 @@ header{
         width:50%;
         height: 100px;
         object-fit: cover;
+    }
+    footer{
+        margin-top:2rem;
     }
 }
