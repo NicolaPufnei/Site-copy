@@ -199,6 +199,7 @@ footer{
     color:#707070;
 }
 .txt1{
+    font-weight: normal;
     font-family: 'Ubuntu', sans-serif;
     color:#707070;
     font-size:1.125rem;
@@ -302,4 +303,7 @@ footer{
 .content{
     font-weight:normal;
     color:#707070;
+}
+.deco{
+    object-position: left;
 }
