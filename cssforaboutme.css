@@ -1,6 +1,6 @@
 body{
     transition: all 1s;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     margin:0;
 }
 header{
@@ -13,7 +13,7 @@ footer{
 }
 .footertxt{
     opacity: 0.54;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     font-size:1.125rem;
     width: 50%;
     margin: 1rem auto;
@@ -30,7 +30,7 @@ footer{
     font-size: 1rem;
 }
 .titlu h1{
-    font-family:'Lora', serif;
+    font-family:'Lora';
     font-size: 2rem;
     font-weight: 400;
     margin:0;
@@ -39,7 +39,7 @@ footer{
 .titlu p{
     text-transform: uppercase;
     font-size:.90rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     font-weight: bold;
     margin:0;
     color:#1792D2;
@@ -95,7 +95,7 @@ footer{
 }
 @media (max-width:1400px){
     .container{
-        width: 70%;
+        width: 80%;
         flex-direction: column;
         margin:1rem auto;
     }
@@ -180,7 +180,7 @@ footer{
     font-weight: light;
 }
 .subtitlu{
-    font-family: 'Lora', 'sans-serif';
+    font-family: 'Lora';
     font-size:1.5rem;
     font-weight: bold;
     color:#143774;
@@ -193,13 +193,13 @@ footer{
     letter-spacing: 2.8px;
 }
 .insdcnt{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     font-weight: light;
     font-size:1.125rem;
     color:#707070;
 }
 .txt1{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     color:#707070;
     font-size:1.125rem;
 }
@@ -284,12 +284,12 @@ footer{
 .subtitlu2{
     font-weight: normal;
     color:#1792D2;
-    font-family: 'Lora', serif;
+    font-family: 'Lora';
 }
 .titlu2{
     color:#143774;
     font-weight: normal;
-    font-family: 'Lora', serif;
+    font-family: 'Lora';
 }
 .content{
     font-weight:normal;
